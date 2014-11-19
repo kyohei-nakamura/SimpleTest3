@@ -12,7 +12,6 @@ public class SimpleTest {
     @RequestMapping("/welcome")
     public ModelAndView execute() {
         ModelAndView mav = new ModelAndView("welcome");
-        mb.setMessage("Welcome!");
         mav.addObject("messageBean", mb);
         return mav;
     }

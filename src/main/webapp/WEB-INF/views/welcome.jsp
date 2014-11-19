@@ -7,5 +7,6 @@
 <h1>SpringMVC localization example</h1>
 ${appUrl}<br>
 ${messageBean.message}<br>
+${mb.message}<br>
 </body>
 </html>
