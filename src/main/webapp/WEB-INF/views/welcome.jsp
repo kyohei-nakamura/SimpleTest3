@@ -5,6 +5,7 @@
 
 <body>
 <h1>SpringMVC localization example</h1>
-${appUrl}
+${appUrl}<br>
+${messageBean.message}<br>
 </body>
 </html>
